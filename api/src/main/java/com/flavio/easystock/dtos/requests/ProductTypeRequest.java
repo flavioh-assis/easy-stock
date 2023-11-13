@@ -1,4 +1,4 @@
-package com.flavio.easystock.requests;
+package com.flavio.easystock.dtos.requests;
 
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.Size;
