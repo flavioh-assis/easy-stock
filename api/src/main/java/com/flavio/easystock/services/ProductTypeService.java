@@ -1,9 +1,9 @@
 package com.flavio.easystock.services;
 
+import com.flavio.easystock.dtos.requests.ProductTypeRequest;
 import com.flavio.easystock.entities.ProductType;
 import com.flavio.easystock.exceptions.EntityNotFoundException;
 import com.flavio.easystock.repositories.ProductTypeRepository;
-import com.flavio.easystock.requests.ProductTypeRequest;
 import org.modelmapper.ModelMapper;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

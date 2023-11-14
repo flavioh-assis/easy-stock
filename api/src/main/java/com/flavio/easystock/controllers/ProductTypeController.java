@@ -1,7 +1,7 @@
 package com.flavio.easystock.controllers;
 
+import com.flavio.easystock.dtos.requests.ProductTypeRequest;
 import com.flavio.easystock.dtos.responses.ProductTypeResponse;
-import com.flavio.easystock.requests.ProductTypeRequest;
 import com.flavio.easystock.services.ProductTypeService;
 import jakarta.validation.Valid;
 import org.modelmapper.ModelMapper;
