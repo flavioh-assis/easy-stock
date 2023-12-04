@@ -10,6 +10,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { FooterComponent } from './components/footer/footer.component';
 import { MenuComponent } from './components/menu/menu.component';
 import { HeaderComponent } from './components/header/header.component';
+import { ProductTypeModule } from './features/product-type/product-type.module';
 
 @NgModule({
   declarations: [
@@ -25,6 +26,7 @@ import { HeaderComponent } from './components/header/header.component';
     MatSidenavModule,
     MatIconModule,
     MatToolbarModule,
+    ProductTypeModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
